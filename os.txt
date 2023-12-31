@@ -1,2 +1,51 @@
 OPERATING SYSTEM
 
+old tech
+batch processing
+spooling
+
+kernal + interface - os
+
+microkernal structure
+- rmeove all non essential components and implement them as system and user level programms
+
+systems calls 
+
+modes - user mode and kernel mode
+
+
+process
+process is the program in action/exec
+
+program is pasive
+process is active
+
+every process has a PCB - process control block that contains the metedata of the process
+
+process sections - text stack global-variables heap
+
+process cycle 
+
+schedulars - scheduling of the processes
+types - 
+long term
+short term
+medium term
+
+schedulars -> dispatchers - dispatches the process 
+
+context switch
+
+cpu scheduling
+process of determining which process in the ready queue is allocated to the cpu
+first come first serve
+shortest job next
+priority
+round robin
+multilevel queue scheduling
+
+types
+non premptive jabtak chla chla - non forceful like if the process if finished or is waiting for the io then it is automatically stopped by itself
+premptive - forcefully preventing the process form execution (eg priority scheduling if a process with higher priority enters then the current process need to be stopped)
+
+Process sync and race conditions-
