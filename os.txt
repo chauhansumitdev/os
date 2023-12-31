@@ -49,3 +49,49 @@ non premptive jabtak chla chla - non forceful like if the process if finished or
 premptive - forcefully preventing the process form execution (eg priority scheduling if a process with higher priority enters then the current process need to be stopped)
 
 Process sync and race conditions-
+race condition - a situation in which the output of a process depends on the sequcene of the process like if the order of execution of different process with respect to another process the output may change.
+means differnt processes process the same resource consecuently changing the output of the process and providing inconsistency
+the resource that is being shared is called critical sections
+
+criterion to solve the critical section problem
+mutual exclusion - one process can access the data at one point of time
+progress - if the process wants to access the critical section then only it is given access to faltu ka bagdad nahi machani
+bounded waiting - two process waiting should have limited time to wait
+
+solutions to critical section problem
+two process solution - using turn variable (not valid - progress is not satisfied)
+peterson sol - 
+dekkers sol
+semaphores - integer variables - for n process solutions
+these can have two operations only - wait(s) and signal(s)
+wait
+critical section
+signal
+
+
+problems on sync-
+prosucer consumer problem/bounded buffer problem
+dinning philosopher problem
+the sleeping barber problem
+
+deadlock -
+a waiting process is never again able to change state because the resources it has requested are held by other waiting process.
+
+conditions for the deadlock -
+mutual exclusion 
+hold and wait
+no preemption
+circular wait
+all of thses four conditions should occour at once.
+
+deadlock handeling
+prevention
+avoidance 
+detection
+ignorance
+
+
+thread resides in the process and it uses the PCB or the data of the main process only to run its threads
+
+Memory management
+
