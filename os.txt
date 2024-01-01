@@ -94,4 +94,66 @@ ignorance
 thread resides in the process and it uses the PCB or the data of the main process only to run its threads
 
 Memory management
+memory hierarhcy 
+register 
+cache memory
+main memory
+magnetic disc 
+
+work-
+address translation
+memory allocation
+memory tracking
+mem protection
+
+continuous mem allocation
+the process must be loaded to the main memory completely for execution
+must be stored in main memory in contiguous fashion
+
+there can be internal or external fragmentation
+
+paging- ( fixed size mem )
+non continuoous mem alloc
+secondary memory id divided into fixed size segments called pages
+primary memory is divided into fixed size segments called frames
+
+address is located that contains page no with offset (p+d)
+
+the process id mapped to the page table that stores the frame number
+
+TLB - translation look aside buffer (hardware)
+
+
+segmentation - variable sized paging(according to the program size)
+
+
+VIRTUAL Memory
+
+pure demand paging-
+a memory management scheme where a process starts with no ages in memory and the pages aer only loaded when explicitly required duing the execution
+page fault
+
+page replacement algo
+replece the one that has entered the memory first- first in first out replacement algo
+optimal page replacement - removing the one that is not in use in future(greedy approach)(not implementable)
+lru - least recently used - look in backward direction in time and replace the page that  has not been used fr the longest period of time.
+
+
+thrashing-
+when the process spends more time in swaping pages than execution.
+
+DISK management
+disk scheduling -
+this can be improved by managing the order in which disk io requests are served
+fcfs
+greedy approach
+scan / elevator algo
+    circular scan
+    look scheduling
+    clook
+
+FILE allocation
+contiguous
+linked
+indexed
 
